@@ -55,3 +55,32 @@ footer{
     bottom: 220px;
     right: 190px;
 }
+
+.s{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 100px;
+    right: 5px;
+}
+
+.s:hover{
+       transform: translateX(-100px)
+}
+
+.m{
+       position: absolute;
+    bottom: 100px;
+    right: 5px;
+    width: 150px;
+    height: 150px;
+    opacity: 0;
+}
+
+.m:hover{
+    opacity: 1;
+}
+
+.z{
+    height: 1px;
+}
