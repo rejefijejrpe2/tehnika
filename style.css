@@ -1,98 +1,57 @@
 body {
-    font-family: sans-serif;
-    background-color: white;
+    font-family: ;
+    background-color: rgb(107 153 148);
 }
 
-header {
-    justify-content: space-between;
-    padding: ;
-    margin-bottom: 20px;
+.vertical{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    float: left;
 }
 
-.button {
-    background-color: #36bbce;
-    color: black;
-    text-decoration: none;
-    padding: 15px;
-    font-size: 24px;
-    border-radius: 10px;
-    float:right;
+.gg{
+    position: absolute;
+    right: 0px;
+ width: 100px  ;
+ height: 80px;
+ top:0;
 }
 
-nav {
-    border-top: 5px solid white;
-    border-bottom: 5px solid white;
-    padding: 25px 100px 25px 95px;
-    justify-content: space-between;
-    display: flex;
-
-}
-
-.nav-link {
-    font-size: 24px;
-    color: white;
-    text-decoration: none;
-}
-
-h1 {
+h1{
     text-align: center;
-    color: white;
-    font-size: 36px;
-    margin-top: ;
-    margin-bottom: ;
 }
 
-p {
-    font-size: 24px;
-    
+h2{
+     text-align: center;
 }
 
-.info {
-    flex-wrap: wrap;
-    width: 1100px;
-    margin: 0px;
-    display: flex;
-    justify-content: center;
-   
+.about_me{
+    float: left;
 }
 
-article {
-    background-color: white;
-    padding:20px ;
-    width: 400px;
-    margin: 20px ;
-    text-align:center;
+.works{
+    position: absolute;
+    top: 400px;
+    left:41%;
 
 }
-
-.article-but {
-    text-decoration: none;
-    color: black;
-    font-size: 24px;
-    text-align: center;
-    padding: 10px 75px 10px 75px;
-   background-color:darkblue;
-   
+p{
+    margin: 20px;
+}
+footer{
+    position: absolute;
+   top: 900px;
 }
 
-footer {
-    padding:25px ;
-    display: flex;
-    background-color: darkviolet
+.r{
+    width: 300px;
+    position: relative;
+    left:220px;
 }
 
-footer a {
-    margin-right: 15px;
+.e {
+    width: 300px;
+    position: relative;
+    bottom: 220px;
+    right: 190px;
 }
-
-footer p {
-    font-size: 24px;
-
-}
-
-body {
-    background-color: black;
-}
-
-
-
